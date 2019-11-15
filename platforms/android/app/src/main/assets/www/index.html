@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2016 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+   
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet"  href="css/jquery.mobile-1.4.5.css">
+	
+	<script src="js/jquery.js"></script>
+	<script type="text/javascript">
+		$(document).on('mobileinit' , function(){
+			$.mobile.defaultPageTransition = 'slidefade' 
+		});
+	</script>
+	<script src="js/jquery.mobile-1.4.5.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/sweet-candy/sweet-candy-css/style.css">
+
+    <title >HTML Cheat Sheet</title>
+</head>
+
+<body>
+
+    <div data-role="header" id="header">
+    <img id="logo" src="img/html.png"> 
+	<h1 style="font-weight: 800;">HTML Cheat Sheet</h1> 
+</div> 
+<div class="ui-content" >
+    	
+<button class="collapsible" style=" color: #EA5827;">DOCUMENT OUTLINE<img id="more" src="img/down.png"></button>
+<div class="content">
+	<table id="data">
+  <tr>
+    <th><<span id="p1">!DOCTYPE></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>VERSION OF (X)HTML</span></th>
+
+  </tr>
+
+  <tr>
+    <th><<span id="p1">HTML></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>HTML DOCUMENT</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">HEAD></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>PAGE INFORMATION</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">BODY></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>PAGE CONTENTS</span></th>
+  </tr>
+  </table>
+</div>
+
+<!--section-->
+<button class="collapsible" style=" color: #EA5827;">COMMENTS<img id="more" src="img/down.png"></button>
+<div class="content">
+	<table id="data">
+  <tr>
+    <th><<span id="p1">!--COMMENT TEXT--></span></th>
+    <th><span id="p2"></span></th>
+  </tr>
+  </table>
+</div>
+
+
+<!--section-->
+<button class="collapsible" style=" color: #EA5827;">PAGE INFORMATION<img id="more" src="img/down.png"></button>
+<div class="content">
+	<table id="data">
+  <tr>
+    <th><<span id="p1">base/></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>BASE URL</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">meta/></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>META DATA</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">title></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>TITLE</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">link/></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>RELEVANT RESOURCE</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">style></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>STYLE RESOURCE</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">script></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>SCRIPT RESOURCE</span></th>
+  </tr>
+  </table>
+</div>
+
+   
+
+   <!--section-->
+<button class="collapsible" style=" color: #EA5827;">DOCUMENT STRUCTURE<img id="more" src="img/down.png"></button>
+<div class="content">
+	<table id="data">
+  <tr>
+    <th><<span id="p1">h[1-6]></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>HEADING</span></th>
+  </tr>
+   <tr>
+    <th><<span id="p1">diV></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>PAGE SECTION</span></th>
+  </tr>
+   <tr>
+    <th><<span id="p1">span></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>INLINE SECTION</span></th>
+  </tr>
+   <tr>
+    <th><<span id="p1">p></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>PARAGRAPH</span></th>
+  </tr>
+   <tr>
+    <th><<span id="p1">br/></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>LINE BREAK</span></th>
+  </tr>
+   <tr>
+    <th><<span id="p1">hr/></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>HORIZONTAL RULE</span></th>
+  </tr>
+  </table>
+
+</div>
+
+   <!--section-->
+<button class="collapsible" style=" color: #EA5827;">LINKS<img id="more" src="img/down.png"></button>
+<div class="content">
+	<table id="data">
+  <tr>
+    <th><<span id="p1">a href=""></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>PAGE LINK</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">a href="mailto"></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>EMAIL LINK</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">a href="name"></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>ANCHORI</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">a href ="#name"></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>LINK TO ANCHOR</span></th>
+  </tr>
+  </table>
+
+</div>
+
+   <!--section-->
+<button class="collapsible" style=" color: #EA5827;">TEXT MARKUP<img id="more" src="img/down.png"></button>
+<div class="content">
+	<table id="data">
+  <tr>
+    <th><<span id="p1">strond></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>STRONG EMPHASIS</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">em></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>EMPHASIS</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">blockquote></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>LONG QUOTATION</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">q></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>SHORT QUOTATION</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">abbi></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>ABBREVIATION</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">acronym></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>ACRONYM</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">addrese></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>ADDRESS</span></th>
+  </tr>
+    <th><<span id="p1">pre></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>PREFORMATTED TEXT</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">dfn></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>DEFINITION</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">code></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>CODE</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">cite></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>ClTATlON</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">del></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>DELETED TEXT</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">ins></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>INSERTED TEXT</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">sub></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>SUBSCRIPT</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">suq></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>SUPERSCRIPT</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">bdo></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>TEXT DIRECTION</span></th>
+  </tr>
+  </table>
+
+</div>
+
+
+   <!--section-->
+<button class="collapsible" style=" color: #EA5827;">LIST<img id="more" src="img/down.png"></button>
+<div class="content">
+	<table id="data">
+  <tr>
+    <th><<span id="p1">ol></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>ORDERED LIST</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">ul></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>UNORDERED LIST</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">li></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>LIST ITEM</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">dl></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>DEFINITION LIST</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">dt></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>DEFINITION TERM</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">dd></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>TERM DESCRIPTION</span></th>
+  </tr>
+  </table>
+
+</div>
+
+
+   <!--section-->
+<button class="collapsible" style=" color: #EA5827;">FORMS<img id="more" src="img/down.png"></button>
+<div class="content">
+	<table id="data">
+  <tr>
+    <th><<span id="p1">form></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>FORM</span></th>
+  </tr>
+   <tr>
+    <th><<span id="p1">fieldsetd></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>COLLECTION OF FIELDS</span></th>
+  </tr>
+   <tr>
+    <th><<span id="p1">legend></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>FORM LEGEND</span></th>
+  </tr>
+   <tr>
+    <th><<span id="p1">label></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>INPUT LABEL</span></th>
+  </tr>
+   <tr>
+    <th><<span id="p1">input/></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>DROP-DOWN BOX</span></th>
+  </tr>
+   <tr>
+    <th><<span id="p1">select></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>GROUP OF OPTIONS</span></th>
+  </tr>
+   <tr>
+    <th><<span id="p1">optgroup></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>LARGE TEXT INPUT</span></th>
+  </tr>
+   <tr>
+    <th><<span id="p1">option></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>DROP DOWN OPTIONS</span></th>
+  </tr>
+   <tr>
+    <th><<span id="p1">textarea></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>LARGE TEXT INPUT</span></th>
+  </tr>
+   <tr>
+    <th><<span id="p1">button></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>BUTTON</span></th>
+  </tr>
+  </table>
+
+</div>
+
+
+   <!--section-->
+<button class="collapsible" style=" color: #EA5827;">TABLES<img id="more" src="img/down.png"></button>
+<div class="content">
+	<table id="data">
+  <tr>
+    <th><<span id="p1">table></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>TABLE</span></th>
+  </tr>
+   <tr>
+    <th><<span id="p1">caption></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>CAPTlON</span></th>
+  </tr>
+   <tr>
+    <th><<span id="p1">thead></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>TABLE HEADER</span></th>
+  </tr>
+   <tr>
+    <th><<span id="p1">tbody></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>TABLE BODY</span></th>
+  </tr>
+   <tr>
+    <th><<span id="p1">tfoot></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>TABLE FOOTER</span></th>
+  </tr>
+   <tr>
+    <th><<span id="p1">colgroup></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>COLUMN GROUP</span></th>
+  </tr>
+   <tr>
+    <th><<span id="p1">col/></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>COLUMN</span></th>
+  </tr>
+   <tr>
+    <th><<span id="p1">tr></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>TABLE ROW</span></th>
+  </tr>
+   <tr>
+    <th><<span id="p1">th></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>HEADER CELL</span></th>
+  </tr>
+   <tr>
+    <th><<span id="p1">td></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>TABLE CELL</span></th>
+  </tr>
+  </table>
+
+</div>
+
+
+   <!--section-->
+<button class="collapsible" style=" color: #EA5827;">IMAGES AND IMAGE MAPS<img id="more" src="img/down.png"></button>
+<div class="content">
+	<table id="data">
+  <tr>
+    <th><<span id="p1">img/></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>IMAGE</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">map></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>IMAGE MAP</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">area/></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>AREA OF IMAGE MAP</span></th>
+  </tr>
+  </table>
+
+</div>
+
+
+   <!--section-->
+<button class="collapsible" style=" color: #EA5827;">COMMON CHARACTER ENTITIES<img id="more" src="img/down.png"></button>
+<div class="content">
+	<table id="data">
+  <tr>
+    <th><<span id="p1">8#34;></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>“ QUOTATION MARK</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">8#38;></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>& AMPERSAND</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">8#60;></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>< LESS THAN</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">8#62;></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>> GREATER THAN</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">8#64;></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>@ "AT" SYMBOLI</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">8#128;></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>€ EURO</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">8#149;></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>• SMALL BULLET</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">-8#153;></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>™ TRADEMARK</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">8#160;></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>NO BREAKING SPACE</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">8#163;></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>£ POUND</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">8#169;></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....</span>© COPYRIGHT SYMBOL</span></th>
+  </tr>
+  </table>
+
+</div>
+
+
+   <!--section-->
+<button class="collapsible" style=" color: #EA5827;">OBJECTS<img id="more" src="img/down.png"></button>
+<div class="content">
+	<table id="data">
+  <tr>
+    <th><<span id="p1" style="text-transform: uppercase;">OBJECT></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....................</span>OBJECT</span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1"style="text-transform: uppercase;">PARAM/></span></th>
+    <th><span id="p2"><span style="color: transparent;">.....................</span>PARAMETER</span></th>
+  </tr>
+  </table>
+
+</div>
+
+
+   <!--section-->
+<button class="collapsible" style=" color: #EA5827;">EMPTY ELEMENTS<img id="more" src="img/down.png"></button>
+<div class="content">
+	<table id="data">
+  <tr>
+    <th><<span id="p1">area/></span></th>
+   
+    <th><span style="color: transparent;">.....................</span><<span id="p1">img/></span></
+  </tr>
+  <tr>
+    <th><<span id="p1">base/></span></th>
+   
+    <th><span style="color: transparent;">.....................</span><<span id="p1">input/></span></th>
+    
+  </tr>
+  <tr>
+    <th><<span id="p1">br/></span></th>
+    
+    <th><span style="color: transparent;">.....................</span><<span id="p1">link/></span></th>
+    
+  </tr>
+  <tr>
+    <th><<span id="p1">col/></span></th>
+   
+    <th><span style="color: transparent;">.....................</span><<span id="p1">meta/></span></th>
+    
+  </tr>
+  <tr>
+    <th><<span id="p1">ht/></span></th>
+    
+    <th><span style="color: transparent;">.....................</span><<span id="p1">param/></span></th>
+    
+  </tr>
+  </table>
+
+</div>
+
+
+   <!--section-->
+<button class="collapsible" style=" color: #EA5827;">CORE ATTRIBUTES<img id="more" src="img/down.png"></button>
+<div class="content">
+	<table id="data">
+  <tr>
+    <th><<span id="p1">class></span></th>
+    <th><span style="color: transparent;">.....................</span><<span id="p1">style></span></th>
+  </tr>
+  <tr>
+    <th><<span id="p1">id></span></th>
+    <th><span style="color: transparent;">.....................</span><<span id="p1">title></span></th>
+  </tr>
+  </table>
+  <p>Note :<span style="text-transform: lowercase;"> Core attributes may not be used in base, head, html, meta, param, script, style or title elements.</span></p>
+
+</div>
+
+
+   <!--section-->
+<button class="collapsible" style=" color: #EA5827;">LANGUAGE ATTRIBUTES<img id="more" src="img/down.png"></button>
+<div class="content">
+	<table id="data">
+  <tr>
+    <th><span id="p1">dir</span></th>
+    <th><span style="color: transparent;">.....................</span><span id="p1">lang</span></th>
+    </tr>
+  </table>
+  <p>Note :<span style="text-transform: lowercase;">Language attributes may not be used in base, br, frame , frameset, hr, iframe, param or script elements.</span></p>
+</div>
+
+
+   <!--section-->
+<button class="collapsible" style=" color: #EA5827;">KEYBOARD ATTRIBUTES<img id="more" src="img/down.png"></button>
+<div class="content">
+	<table id="data">
+  <tr>
+    <th><span id="p1">accesskey</span></th>
+    <th><span style="color: transparent;">.....................</span><span id="p1">tabindex</span></th>
+    </tr>
+  </table>
+
+</div>
+
+
+   <!--section-->
+<button class="collapsible" style=" color: #EA5827;">WINDOW EVENTS<img id="more" src="img/down.png"></button>
+<div class="content">
+	<table id="data">
+  <tr>
+    <th><span id="p1">on Load</span></th>
+    <th><span style="color: transparent;">.....................</span><span id="p1">onUnload</span></th>
+    </tr>
+  </table>
+
+</div>
+
+
+   <!--section-->
+<button class="collapsible" style=" color: #EA5827;">FORM EVENTS<img id="more" src="img/down.png"></button>
+<div class="content">
+	<table id="data">
+  <tr>
+    <th><span id="p1">onBlur</span></th>
+    <th><span style="color: transparent;">.....................</span><span id="p1">onReset</span></th>
+     </tr>
+  <tr>
+    <th><span id="p1">onChange</span></th>
+    <th><span style="color: transparent;">.....................</span><span id="p1">onSelect</span></th>
+     </tr>
+  <tr>
+    <th><span id="p1">onFocus</span></th>
+    <th><span style="color: transparent;">.....................</span><span id="p1">onSubmit</span></th>
+     </tr>
+    
+  
+  </table>
+
+</div>
+
+
+   <!--section-->
+<button class="collapsible" style=" color: #EA5827;">KEYBOARD EVENTS<img id="more" src="img/down.png"></button>
+<div class="content">
+	<table id="data">
+  <tr>
+    <th><span id="p1">onKeydown</span></th>
+    <th><span style="color: transparent;">.....................</span><span id="p1">onKeyup</span></th>
+    </tr>
+    <tr>
+    <th><span id="p1">onKeypress</span></th>
+    </tr>
+  </table>
+
+</div>
+
+   <!--section-->
+<button class="collapsible" style=" color: #EA5827;">MOUSE EVENT<img id="more" src="img/down.png"></button>
+<div class="content">
+	<table id="data">
+  <tr>
+    <th><span id="p1">onClick</span></th>
+    <th><span style="color: transparent;">.....................</span><span id="p1">onDbclick</span></th>
+    </tr>
+    <tr>
+    <th><span id="p1">onMousedown</span></th>
+    <th><span style="color: transparent;">.....................</span><span id="p1">onMousemove</span></th>
+    </tr>
+    <tr>
+    <th><span id="p1">onMouseout</span></th>
+    <th><span style="color: transparent;">.....................</span><span id="p1">onMouseover</span></th>
+    </tr>
+    <tr>
+    <th><span id="p1">onMouseup</span></th>
+    </tr>
+  </table>
+
+</div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+</body>
+
+</html>
